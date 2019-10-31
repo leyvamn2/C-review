@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main(){
-int e1,e2,suma,resta,mult,div;
+int e1,e2,suma,resta,mult;
+float  div;
 
 printf("indtroduzca el primer número");
 scanf("%d",&e1);
@@ -18,7 +19,7 @@ printf("la resta es%d\n",resta );
 mult=e1*e2;
 printf("la multiplicacion es%d\n",mult );
 
-div=e1+e2;
+div=e1/e2;
 printf("la division es%d\n",div );
 
 
